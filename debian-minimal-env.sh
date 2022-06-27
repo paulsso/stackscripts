@@ -33,3 +33,5 @@ cd $HOME/.suckless/dmenu
 make
 sudo make clean install
 cd 
+
+sudo cp dwm.desktop /usr/share/xsessions/dwm.desktop
