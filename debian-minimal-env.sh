@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt -y install firmware-linux firmware-linux-nonfree
 
-sudo apt -y install sddm picom nitrogen vifm
+sudo apt -y install sddm picom nitrogen vifm firefox-esr
 sudo apt -y install python python3 python3-pip
 sudo apt -y install build-essential libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
 
