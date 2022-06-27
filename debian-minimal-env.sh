@@ -4,8 +4,8 @@ sudo apt -y install sddm
 sudo apt -y install make python python3 python3-pip
 
 git clone https://gitlab.com/dwt1/multicolor-sddm-theme.git ../dt-multicolor-sddm-theme
-git clone git clone https://git.suckless.org/dwm ../dwm
-git clone git clone https://git.suckless.org/st ../st
+git clone https://git.suckless.org/dwm ../dwm
+git clone https://git.suckless.org/st ../st
 
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
     | gpg --dearmor \
