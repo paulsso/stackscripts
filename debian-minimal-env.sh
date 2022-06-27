@@ -34,4 +34,5 @@ make
 sudo make clean install
 cd 
 
+sudo mkdir /usr/share/xsessions
 sudo cp dwm.desktop /usr/share/xsessions/dwm.desktop
