@@ -12,6 +12,7 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
     | sudo tee /etc/apt/sources.list.d/vscodium.list
     
 sudo apt update && sudo apt -y install codium
+sudo apt -y install vim 
 
 mkdir $HOME/.suckless
 cd $HOME/.suckless
