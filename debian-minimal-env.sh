@@ -1,6 +1,6 @@
 sudo apt -y install firmware-linux firmware-linux-nonfree
 
-sudo apt -y install sddm
+sudo apt -y install sddm picom
 sudo apt -y install python python3 python3-pip
 sudo apt -y install build-essential libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
 
