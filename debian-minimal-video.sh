@@ -3,6 +3,6 @@ sudo cp $HOME/git/stackscripts/debian-sources.list /etc/apt/sources.list
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install xorg xserver-xorg nvidia-detect xutils mesa-utils xinit 
+sudo apt -y install xorg xserver-xorg nvidia-detect xutils mesa-utils xinit 
 
-sudo apt install nvidia-driver
+sudo apt -y install nvidia-driver
