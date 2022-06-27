@@ -20,8 +20,7 @@ git clone https://git.suckless.org/dwm
 git clone https://git.suckless.org/st
 git clone https://git.suckless.org/dmenu
 
-cd $HOME/.suckless/.suckless
-cd dwm
+cd $HOME/.suckless/dwm
 make
 sudo make clean install
 
