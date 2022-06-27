@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt -y install firmware-linux firmware-linux-nonfree
 
 sudo apt -y install sddm picom nitrogen vifm
