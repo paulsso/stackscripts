@@ -39,4 +39,6 @@ sudo mkdir /usr/share/xsessions
 sudo cp dwm.desktop /usr/share/xsessions/dwm.desktop
 
 sudo mkdir /usr/local/scripts
-sudo cp startup.sh /usr/local/scripts
+sudo cp startup.sh /usr/local/scripts/
+sudo cp reconfig.sh /usr/local/scripts/
+sudo chown oskar:oskar /usr/local/scripts/reconfig.sh
