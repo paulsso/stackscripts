@@ -18,9 +18,9 @@ sudo apt -y install vim
 mkdir $HOME/.suckless
 cd $HOME/.suckless
 
-git clone https://git.suckless.org/dwm
-git clone https://git.suckless.org/st
-git clone https://git.suckless.org/dmenu
+git clone https://github.com/paulsso/fractal-dwm
+git clone https://github.com/paulsso/fractal-st
+git clone https://github.com/paulsso/fractal-dmenu
 
 cd $HOME/.suckless/dwm
 make
