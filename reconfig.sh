@@ -1,4 +1,5 @@
 #!/bin/sh
+
 cd /root/.suckless/dwm
 make clean install
 
