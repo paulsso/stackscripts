@@ -1,10 +1,10 @@
 #!/bin/sh
 
-cd /root/.suckless/dwm
-make clean install
+cd ~/.suckless/dwm
+sudo make clean install
 
-cd /root/.suckless/st
-make clean install
+cd ~/.suckless/st
+sudo make clean install
 
-cd /root/.suckless/dmenu
-make clean install
+cd ~/.suckless/dmenu
+sudo make clean install
