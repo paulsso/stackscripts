@@ -38,7 +38,8 @@ cd
 sudo mkdir /usr/share/xsessions
 sudo cp dwm.desktop /usr/share/xsessions/dwm.desktop
 
-sudo mkdir /usr/local/scripts
-sudo cp startup.sh /usr/local/scripts/
-sudo cp reconfig.sh /usr/local/scripts/
+sudo cp startup.sh /usr/local/bin/
+sudo cp reconfig.sh /usr/local/bin/
+sudo cp creategithubrepo.sh /usr/local/bin/
+
 sudo chown oskar:oskar /usr/local/scripts/reconfig.sh
