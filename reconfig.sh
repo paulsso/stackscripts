@@ -8,3 +8,5 @@ sudo make clean install
 
 cd ~/.suckless/dmenu
 sudo make clean install
+
+sudo systemctl restart display-manager
