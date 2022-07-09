@@ -1,9 +1,6 @@
 #!/bin/sh
-# Compositor
 picom -f &
-
-#Add Wallpaper
 nitrogen --restore &
+exec /usr/local/bin/dwmblocks &
+exec /usr/local/bin/dwm 
 
-#Execute DWM
-exec dwm
